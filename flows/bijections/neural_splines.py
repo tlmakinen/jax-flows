@@ -1,7 +1,7 @@
 import jax.numpy as np
 import numpy as onp
 from jax import nn, ops, random
-from jax.experimental import stax
+from jax.example_libraries import stax
 
 DEFAULT_MIN_BIN_WIDTH = 1e-3
 DEFAULT_MIN_BIN_HEIGHT = 1e-3
